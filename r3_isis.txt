@@ -1,0 +1,6 @@
+router isis
+net 49.0000.0000.0003.00
+is-type level-1-2
+int range fa1/0,f3/0-1, loop 1
+ip router isis
+do wr

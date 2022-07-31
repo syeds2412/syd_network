@@ -1,0 +1,12 @@
+int fa1/0
+ip add 172.16.13.3 255.255.255.0
+no shut
+int f3/0
+ip add 172.35.3 255.255.255.0
+no shut
+int f3/1
+ip add 172.16.36.3 255.255.255.0
+no shut
+int lo1
+ip add 10.3.3.3 255.255.255.255
+do wr
